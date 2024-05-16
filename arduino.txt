@@ -1,0 +1,13 @@
+/
+├── index.html
+├── services.html
+├── contact.html
+├── gold_alliance.html
+├── exposure.html
+├── styles.css
+├── scripts.js
+├── images/
+│   ├── nature1.jpg
+│   ├── nature2.jpg
+│   └── nature3.jpg
+├── favicon.ico (optional)
