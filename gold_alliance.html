@@ -54,9 +54,29 @@
             color: #ffffff; /* 白色字体 */
             padding: 10px 20px;
             text-align: center;
-            position: absolute;
+            /* 从固定定位改为相对定位 */
+            position: relative;
             bottom: 0;
             width: 100%;
+        }
+        /* 添加媒体查询来处理移动端样式 */
+        @media screen and (max-width: 600px) {
+            header, footer {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            nav ul li a {
+                font-size: 16px;
+            }
+            main {
+                padding: 10px;
+            }
         }
     </style>
 </head>
