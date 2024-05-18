@@ -58,6 +58,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /* 移动设备媒体查询 */
 @media only screen and (max-width: 600px) {
     footer {
