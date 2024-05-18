@@ -58,3 +58,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* 移动设备媒体查询 */
+@media only screen and (max-width: 600px) {
+    footer {
+        position: relative; /* 将页尾版权信息改为相对定位 */
+        bottom: auto;
+    }
+}
